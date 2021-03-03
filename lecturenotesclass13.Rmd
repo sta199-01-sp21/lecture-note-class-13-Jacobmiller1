@@ -401,11 +401,11 @@ boot_prop_lived
 ```
 
 ```{r practice_2_ci}
-ci_mice_lived <- get_ci(boot_prop_lived, level = .95)
+ci_mice_lived <- get_ci(boot_prop_lived, level = .90)
 ci_mice_lived
 ```
 
-Visualizing our Resuts:
+Visualizing our Results:
 
 ```{r practice_2_visualize}
 visualise(boot_prop_lived) +
